@@ -1,0 +1,56 @@
+<html>
+    <head>
+        <title>
+            Jaylen's Timer
+        </title>
+        <link href="style.css" rel="stylesheet" type="text/css">
+        <script src="app.js"> </script>
+    </head>
+    <body>
+        <div class="fulltimer">
+            <div class = "timer">
+                <button onclick="hourUp()">
+                    UP
+                </button>
+                <p id="hour">0</p>
+                <button onclick="hourDown()">
+                    DOWN
+                </button>
+                <p>H</p>
+            </div>
+            <div class = "timer">
+            <button onclick="minuteUp()">
+                    UP
+                </button>
+                <p id="minute">0</p>
+                <button onclick="minuteDown()">
+                    DOWN
+                </button>
+                <p>M</p>
+            </div> 
+            <div class = "timer">
+                <button onclick="secondUp()">
+                    UP
+                </button>
+                <p id="second">0</p>
+                <button onclick="secondDown()">
+                    DOWN
+                </button>
+                <p>S</p>
+            </div>
+            <div class = "Clearfix"></div>
+        <button onclick="ResetTimer()">RESET TIMER</button>
+        <button onclick="StartTimer()">START TIMER</button>
+        </div>
+    <div class = "moldal" id="mymoldal">
+        <div class = "moldal-content">
+            <p>
+                Your timer's up!
+            </p>
+            <button onclick="closemoldal()">
+                Close
+            </button>
+        </div>
+    </div>
+    </body>
+</html>

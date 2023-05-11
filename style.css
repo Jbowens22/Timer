@@ -1,0 +1,65 @@
+body{
+    background-color:aqua;
+    font-family: hpunk;
+}
+@font-face{
+    font-family: hpunk;
+    src: url(hpunk.TTF);
+}
+.timer button{
+    background-color: crimson;
+    color: aqua; 
+    border-radius: 15px;
+    width: 60px;
+    text-align: center;
+}
+.timer p{
+    color: crimson;
+    border-width: 10px;
+    border-style:groove;
+    border-color: white;
+    padding: 4px;
+}
+.timer{
+    text-align: center;
+    width: 5%;
+    float: left;
+}
+.Clearfix{
+    clear: both;
+}
+button{
+    background-color: crimson;
+    color: aqua; 
+    border-radius: 15px;
+    width: 125px;
+    font-family: hpunk;
+    border-color: white;
+}
+.moldal{
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: aqua;
+    display:none;
+}
+.moldal-content{
+    margin: auto;
+    display: block;
+    width: 80%;
+    text-align: center;
+    padding: 10px;
+    border-color: white;
+    border-width: 5px;
+    border-style:solid;
+    background-color: crimson;
+    color: aqua;
+}
+.fulltimer{
+    left:42%;
+    position:relative;
+}
